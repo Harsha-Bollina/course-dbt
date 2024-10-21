@@ -21,4 +21,19 @@ it aggregates daily product page views and orders. It processes the events table
 
 <img width="1705" alt="Screenshot 2024-10-20 at 10 48 34 PM" src="https://github.com/user-attachments/assets/2435ccc7-7c0f-4295-921c-cfef29eb130d">
 
-##### 6) 
+##### 6) TESTS
+##### Added a test for the model i created: test_non_negative_values.sql
+
+<img width="320" alt="Screenshot 2024-10-20 at 11 13 39 PM" src="https://github.com/user-attachments/assets/13ef166d-5b65-436a-8762-2355dfb7c5c1">
+
+
+then added it to the model, this way
+
+
+<img width="507" alt="Screenshot 2024-10-20 at 11 14 03 PM" src="https://github.com/user-attachments/assets/5371a345-1cb8-42e2-ac15-46a879d35a92">
+
+##### Your stakeholders at Greenery want to understand the state of the data each day. Explain how you would ensure these tests are passing regularly and how you would alert stakeholders about bad data getting through?
+By creating multiple tests that checks data quality and then scheduling them.
+
+
+
