@@ -35,5 +35,9 @@ then added it to the model, this way
 ##### Your stakeholders at Greenery want to understand the state of the data each day. Explain how you would ensure these tests are passing regularly and how you would alert stakeholders about bad data getting through?
 By creating multiple tests that checks data quality and then scheduling them.
 
+##### dbt Snapshots
+I didn't setup the snapshot part last week, so couldn't see any difference this week.
+
+
 
 
