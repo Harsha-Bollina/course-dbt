@@ -1,13 +1,10 @@
 
-
-{{
-  config(
-    target_database = target.database,
-    target_schema = target.schema,
-    strategy='check',
-    unique_key='product_id',
-    check_cols=['inventory']
-  )
-}}
-
-
+  {{
+    config(
+      target_database=target.database,
+      target_schema=target.schema,
+      strategy='check',
+      unique_key='product_id',
+      check_cols=['inventory']  -- Column to monitor for changes
+    )
+  }}
