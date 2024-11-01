@@ -1,3 +1,5 @@
+{% test test_non_negative_values(model) %}
+
 WITH invalid_records AS (
     SELECT
         product_id,
@@ -13,3 +15,5 @@ WITH invalid_records AS (
 )
 
 SELECT * FROM invalid_records
+
+{% endtest %}
