@@ -1,5 +1,6 @@
 version: 2
 
+
 models:
   - name: fact_page_views
     description: "Contains page views and orders data"
